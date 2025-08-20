@@ -1,6 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+
+
+
+
+
+
 contract AutoSure {
     address public owner;
     uint256 public premium = 0.01 ether;
@@ -60,3 +66,4 @@ contract AutoSure {
         payable(owner).transfer(amount);
     }
 }
+
